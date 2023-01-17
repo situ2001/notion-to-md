@@ -50,6 +50,7 @@ This is how the notion page looks for this example:
 ![Imgur](https://imgur.com/O6bKCmH.png)
 
 ```js
+const fs = require("fs");
 const { Client } = require("@notionhq/client");
 const { NotionToMarkdown } = require("notion-to-md");
 // or
